@@ -1,0 +1,15 @@
+{
+  "name": "vulnerable-todolist-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Vulnerable TodoList - Educational Application",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 3000",
+    "serve": "python -m http.server 3000"
+  },
+  "keywords": ["todolist", "vulnerable", "educational", "security"],
+  "author": "Educational Project",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}

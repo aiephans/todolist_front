@@ -1,0 +1,19 @@
+/* Minimal custom styles for Vulnerable TodoList */
+/* Maximizing Bootstrap usage - only essential custom styles */
+
+/* Only essential custom styling that Bootstrap doesn't provide */
+.task-completed {
+    opacity: 0.7;
+}
+
+/* Simple hover effect for task items */
+.list-group-item:hover {
+    background-color: var(--bs-light);
+}
+
+/* Minimal print styles */
+@media print {
+    .navbar, .btn, .modal, footer {
+        display: none !important;
+    }
+}
